@@ -27,12 +27,21 @@ body {
 
 span {
   opacity: 0;
-  transition: opacity 0.125s;
 }
+
 .highlight {
-  transition: none;
   opacity: 1;
 }
+  .highlight--1 {
+    opacity: 1;
+    /* Gray 50% */
+    color: #7f7f7f;
+  }
+  .highlight--2 {
+    opacity: 1;
+    /* Gray 25% */
+    color: #404040;
+  }
 
 .keyboard {
   position: fixed;
@@ -60,7 +69,7 @@ span {
   text-align: center;
   line-height: 1;
   vertical-align: middle;
-  font-size: 400%;
+  font-size: 300%;
   animation: fade 1s;
   animation-fill-mode: forwards;
 }

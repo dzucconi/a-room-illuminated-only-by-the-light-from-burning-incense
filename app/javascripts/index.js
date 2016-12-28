@@ -3,6 +3,7 @@ import parameters from 'queryparams';
 import rand from './lib/rand';
 import timeout from './lib/timeout';
 import keyboard from './lib/keyboard';
+import text from './text';
 
 window.parameters = parameters;
 
@@ -20,24 +21,36 @@ const tock = new Howl({
   volume: 0.25,
 });
 
+const className = (idx, klass) => {
+  const el = document.getElementById(`idx_${idx}`);
+  if (el) el.className = klass;
+  return el;
+};
+
 export default () => {
-  const { message } = parameters({ message: '“Making” is always a compromised, ambiguous affair.' });
+  const { message } = parameters({ message: text });
 
   const letters = message.split('').concat([' ']);
 
   DOM.app.innerHTML = letters.map((x, i) => `<span id='idx_${i}'>${x}</span>`).join('');
 
   const notify = frame => {
-    const highlight = document.getElementById(`idx_${frame}`);
-    if (highlight) highlight.className = 'highlight';
+    className(frame + 1, 'highlight--1');
+    className(frame + 2, 'highlight--2');
 
-    const toggled = document.getElementById(`idx_${frame - 1}`);
-    if (toggled) toggled.className = '';
+    const highlight = className(frame, 'highlight');
+
+    className(frame - 1, 'highlight--1');
+    className(frame - 2, 'highlight--2');
+    className(frame - 3, '');
 
     return highlight.innerText;
   };
 
   const step = () => {
+    const letter = message[STATE.cursor];
+    const pause = rand(0, 50);
+
     timeout(() => {
       if (STATE.cursor === message.length + 1) {
         STATE.cursor = 0;
@@ -45,7 +58,7 @@ export default () => {
         return step();
       }
 
-      const letter = notify(STATE.cursor);
+      notify(STATE.cursor);
 
       tock.play();
       DOM.keyboard.innerHTML = keyboard(letter);
@@ -53,7 +66,7 @@ export default () => {
       STATE.cursor++;
 
       step();
-    }, rand(10, 50));
+    }, letter.match(/\s|,|\.|\?$/) ? (pause * 5) : pause);
   };
 
   step();
