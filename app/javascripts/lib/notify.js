@@ -10,5 +10,5 @@ export default frame => {
   className(frame - 2, 'highlight--2');
   className(frame - 3, '');
 
-  return highlight.innerText;
+  return highlight;
 };
