@@ -5,6 +5,7 @@ import timeout from './lib/timeout';
 import keyboard from './lib/keyboard';
 import notify from './lib/notify';
 import * as sounds from './lib/sounds';
+import * as is from './lib/is';
 
 window.parameters = parameters;
 
@@ -19,7 +20,7 @@ const STATE = {
 
 const step = message => {
   const letter = message[STATE.cursor];
-  const pause = rand(0, 50);
+  const pause = rand(2, 40);
 
   timeout(() => {
     if (STATE.cursor === message.length + 1) {
@@ -28,15 +29,19 @@ const step = message => {
       return step(message);
     }
 
-    notify(STATE.cursor);
+    const active = notify(STATE.cursor);
 
     sounds.tock.play();
     DOM.keyboard.innerHTML = keyboard(letter);
 
     STATE.cursor++;
 
+    if (!is.visible(active)) {
+      window.scroll(0, active.getBoundingClientRect().top);
+    }
+
     step(message);
-  }, letter.match(/\s|,|\.|\?$/) ? (pause * 5) : pause);
+  }, letter && letter.match(/\s|,|\.|\?$/) ? (pause * 5) : pause);
 };
 
 export default () => {
