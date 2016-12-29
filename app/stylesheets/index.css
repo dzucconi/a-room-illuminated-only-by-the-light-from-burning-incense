@@ -20,9 +20,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 24px;
+  letter-spacing: 1px;
   line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 span {
@@ -76,3 +76,24 @@ span {
   .key--active {
     opacity: 1;
   }
+
+@media (max-width: 1024px) {
+  .key {
+    font-size: 250%;
+  }
+}
+
+@media (max-width: 800px) {
+  .key {
+    font-size: 175%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .key {
+    font-size: 200%;
+  }
+}
