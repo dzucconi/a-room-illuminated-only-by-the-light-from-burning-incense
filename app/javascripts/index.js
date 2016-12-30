@@ -45,9 +45,11 @@ const step = message => {
 };
 
 export default () => {
-  const { message } = parameters({
+  let { message } = parameters({
     message: text,
   });
+
+  message += '   '; // Pads message for highlight loop
 
   DOM.app.innerHTML = message
     .split('')
