@@ -1,11 +1,11 @@
 {
-  "name": "glance",
+  "name": "a-room-illuminated-only-by-the-light-from-burning-incense",
   "description": "",
   "author": "Damon Zucconi",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dzucconi/glance"
+    "url": "https://github.com/dzucconi/a-room-illuminated-only-by-the-light-from-burning-incense"
   },
   "scripts": {
     "test": "mocha test",
