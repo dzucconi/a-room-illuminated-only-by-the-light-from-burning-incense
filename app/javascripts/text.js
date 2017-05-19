@@ -1,62 +1,13 @@
 export default `
-  Tuesday December 21 2016 09:34
-
-  Translation
-
-  Thursday December 23 2016 10:27
-
-  A pagne is a piece of fabric of two yard. In West and Central Africa the pagne is the base of many wardrobes: the fabric could be turned into a long skirt, altered into a blouse, carry a baby or be wrapped into a headscarf. The brightly coloured textile is printed with elaborate geometrical patterns by the wax-printing technique. On a pagne of Vlisco, one of the most sophisticated brands among the wax-prints, a trademark is printed at the hem: Veritable Wax Hollandais. But what is veritable about a fabric that has its roots in imitation?
-
-  A layer of wax as stubborn material. Take a cloth of cotton. Draw a design with beewax. Dye the fabric. Wax is resistant, it won’t adsorb the colour. Remove the wax with boiling water. With every bath of paint, determined by where to add and where to remove the wax, a different layer in the fabric emerges. At Java this batik technique has been the most refined. Cotton is painted by hand since hundreds of years, the small dots of wax making the most complex patterns – sometimes it can take a year to finish one fabric.
-    The Dutch thought that could go faster. In the mid-19th century the textile company Vlisco introduced machine fabricated batik in what was then still the Dutch East Indies colony. However, the imitation batik became no succes in Indonesia. It would later, in a mutated form, appear somewhere else. African soldiers, who fought for the Dutch army in Indonesia, brought the imitation batik back to their hometown around Fort Almira (Ghana). And over there, on the Westcoast of Africa, these souvenirs formed the root of a booming textile market. Imitation batik. Wax Hollandais. African Wax. Veritable Wax Hollandais.
-
-  Sometimes words are unnecessary, and can a pattern say enough. As long as the other could read it. There are prints depicting laptops, the handbag of Michelle Obama, portraits of politicians, or a birdcage with a bird flying out. Read: You Fly, I Fly. Read: If you are cheating, I will do the same. A woman doesn’t have to pronounce it, she just needs to wear the fabric. To cover her body in cotton that at the same time unveils her message.
-
-  Sometimes words are unreadable.
-
-  ‘Do you know what the sentence on your scarve is saying?’
-
-  ‘No’, she said, while she took the purple-blue cloth from her neck and looked again at the row of letters around the design of endless repeating eyes.
-
-  ‘It is Swahili, and it says ‘where there’s a will, there’s a way’.
-
-  ‘It is Swahili, and it says ‘if the other hides itself, it’s impossible to make a statement’.
-
-  ‘It is Swahili, and it says, ‘stay soft, it looks beautiful on you’.
-
-  In the metro, behind the cash register and in the line for the club on Saturday night, new shadows emerged. They were very subtle, you were not suppose to notice them. But they were present, betraying themselves by their uniformity. When you signalled one, you would spot them everywhere. What were these shadows, and these highlights, trying to conceal?
-
-  I’m going to apply concealer on camera because that is part of this entire process.
-
-  I’m going to colour correct my under eyes.
-
-  And I’m really pushing the product into my skin.
-
-  Adding the highlight to the centre of the face will make this look more natural. I always need to put this in quotations, because let’s be real there’s nothing ‘natural’ about this.
-
-  You can even highlight the fore head if you want. Right above the brow is a great place.
-
-  The end look is going to be very structured and defined and that’s what this is all about, to get that flawless face.
-
-  Flawless.
-
-  Seamless.
-
-  Contouring can be very overwhelming. There’s so many brushes out there. So many opinions out there.
-
-  It’s like being an artist and sculpting your face and bringing out those features you want to.
-
-  Which areas do you want to pull back?
-
-  I’m going to contour my nose, to make it look smaller.
-
-  When you blend the contour on your forehead just make sure to cover up until your hairline, so there’s no gaps.
-
-  So now I’m going to set my face with a face powder. And then bake it.
-
-  The reason why they call it baking is that when you add a ton of translucent powder to your skin, that part of your face basically can not breathe. And what ends up happening, is that your body temperature comes through and gets trapped between the face and the powder, and it literally cooks the concealer.
-
-  Cooks the foundation. Cooks the make-up. And becomes bullet proof.
-
-  And because it’s never enough for me I’m going in with a foundation powder in the colour MC2.6. It’s very light, it’s very full coverage. I love it to apply when I’m done baking, just to make sure that I really have that full coverage going on.
+March 4, 2013
+Canon Inc.
+Canon develops 35 mm full-frame CMOS sensor for video capture
+TOKYO, March 4, 2013—Canon Inc. announced today that the company has successfully developed a high-sensitivity 35 mm full-frame CMOS sensor exclusively for video recording. Delivering high-sensitivity, low-noise imaging performance, the new Canon 35 mm CMOS sensor*1 enables the capture of Full HD video even in exceptionally low-light environments.
+The newly developed CMOS sensor features pixels measuring 19 microns square in size, which is more than 7.5-times the surface area of the pixels on the CMOS sensor incorporated in Canon's top-of-the-line EOS-1D X and other digital SLR cameras. In addition, the sensor's pixels and readout circuitry employ new technologies that reduce noise, which tends to increase as pixel size increases. Thanks to these technologies, the sensor facilitates the shooting of clearly visible video images even in dimly lit environments with as little as 0.03 lux of illumination, or approximately the brightness of a crescent moon—a level of brightness in which it is difficult for the naked eye to perceive objects. When recording video of astral bodies, while an electron-multiplying CCD,*2 which realizes approximately the same level of perception as the naked eye, can capture magnitude-6 stars, Canon's newly developed CMOS sensor is capable of recording faint stars with a magnitude of 8.5 and above.*3
+Using a prototype camera employing the newly developed sensor, Canon successfully captured a wide range of test video,*4 such as footage recorded in a room illuminated only by the light from burning incense sticks (approximately 0.05—0.01 lux) and video of the Geminid meteor shower. The company is looking to such future applications for the new sensor as astronomical and natural observation, support for medical research, and use in surveillance and security equipment. Through the further development of innovative CMOS sensors, Canon aims to expand the world of new imaging expression.
+Canon Marketing Japan Inc. will be exhibiting a prototype camera that incorporates the newly developed 35 mm full-frame CMOS sensor and sample footage captured with the camera at SECURITY SHOW 2013 (www.shopbiz.jp/en/ss/), which will be held from Tuesday, March 5, to Friday, March 8, at the Tokyo International Exhibition Center in Tokyo, Japan.
+*1An imaging element (aspect ratio: 16:9) that supports the largest image circle size possible when shooting with a Canon EF lens.
+*2A CCD sensor with a readout mechanism that multiplies electrons after being converted from light. Applications include nighttime surveillance and the capture of astral bodies and nighttime nature scenes.
+*3The brightness of a star decreases 2.5-times with each 1 magnitude increase.
+*4Recording of test video footage was made possible through cooperation from ZERO Corporation.
 `;
