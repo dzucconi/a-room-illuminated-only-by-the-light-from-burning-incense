@@ -19,7 +19,7 @@ body {
   background-color: black;
   color: white;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   letter-spacing: 1px;
   line-height: 1;
@@ -27,23 +27,23 @@ body {
   overflow: hidden;
 }
 
-span {
+.letter {
   opacity: 0;
 }
 
 .highlight {
   opacity: 1;
 }
-  .highlight--1 {
-    opacity: 1;
-    /* Gray 50% */
-    color: #7f7f7f;
-  }
-  .highlight--2 {
-    opacity: 1;
-    /* Gray 25% */
-    color: #404040;
-  }
+.highlight--1 {
+  opacity: 1;
+  /* Gray 50% */
+  color: #7f7f7f;
+}
+.highlight--2 {
+  opacity: 1;
+  /* Gray 25% */
+  color: #404040;
+}
 
 .keyboard {
   position: fixed;
@@ -51,10 +51,10 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-  .keyboard__row {
-    display: flex;
-    justify-content: center;
-  }
+.keyboard__row {
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes fade {
   100% {
@@ -74,10 +74,11 @@ span {
   font-size: 300%;
   animation: fade 1s;
   animation-fill-mode: forwards;
+  opacity: 0;
 }
-  .key--active {
-    opacity: 1;
-  }
+.key--active {
+  opacity: 1;
+}
 
 @media (max-width: 1024px) {
   .key {
