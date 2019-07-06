@@ -13,14 +13,14 @@
     "lint": "eslint --ext .js ./src --fix"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "eslint": "^6.0.1",
-    "parcel": "^1.12.3"
+    "@babel/core": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "eslint": "6.0.1",
+    "parcel": "1.12.3"
   },
   "dependencies": {
-    "audiate": "^0.1.1",
-    "howler": "^2.0.2",
+    "audiate": "0.1.1",
+    "howler": "2.1.2",
     "queryparams": "0.1.0"
   }
 }
