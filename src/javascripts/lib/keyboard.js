@@ -8,12 +8,12 @@ const KEYBOARD = [
 export default active => {
   return KEYBOARD.map(row => {
     return `
-      <div class='keyboard__row'>
+      <div class='Keyboard__row'>
         ${row
           .map(
             key => `
-          <span class='key ${
-            key === (active && active.toLowerCase()) ? "key--active" : ""
+          <span class='Key ${
+            key === (active && active.toLowerCase()) ? "Key--active" : ""
           }'>
             ${key}
           </span>

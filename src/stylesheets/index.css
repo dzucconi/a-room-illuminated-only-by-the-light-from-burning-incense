@@ -21,37 +21,42 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
-  letter-spacing: 1px;
   line-height: 1;
-  text-transform: uppercase;
   overflow: hidden;
+  user-select: none;
 }
 
-.letter {
+.Lowlight {
   opacity: 0;
 }
 
-.highlight {
+.Lowlight,
+.Highlight {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.Highlight {
   opacity: 1;
 }
-.highlight--1 {
+.Highlight--1 {
   opacity: 1;
   /* Gray 50% */
   color: #7f7f7f;
 }
-.highlight--2 {
+.Highlight--2 {
   opacity: 1;
   /* Gray 25% */
   color: #404040;
 }
 
-.keyboard {
+.Keyboard {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.keyboard__row {
+.Keyboard__row {
   display: flex;
   justify-content: center;
 }
@@ -62,7 +67,7 @@ body {
   }
 }
 
-.key {
+.Key {
   position: relative;
   width: 1em;
   margin: 0.0625em;
@@ -76,18 +81,18 @@ body {
   animation-fill-mode: forwards;
   opacity: 0;
 }
-.key--active {
+.Key--active {
   opacity: 1;
 }
 
 @media (max-width: 1024px) {
-  .key {
+  .Key {
     font-size: 250%;
   }
 }
 
 @media (max-width: 800px) {
-  .key {
+  .Key {
     font-size: 175%;
   }
 }
@@ -96,7 +101,7 @@ body {
   body {
     font-size: 16px;
   }
-  .key {
+  .Key {
     font-size: 200%;
   }
 }

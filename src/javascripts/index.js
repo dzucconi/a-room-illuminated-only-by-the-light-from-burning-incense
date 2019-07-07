@@ -59,7 +59,7 @@ const init = () => {
   DOM.app.innerHTML = message
     .split("")
     .concat([" "])
-    .map((x, i) => `<span class='letter' id='idx_${i}'>${x}</span>`)
+    .map((x, i) => `<span class='Lowlight' id='idx_${i}'>${x}</span>`)
     .join("");
 
   step(message);
