@@ -1,5 +1,5 @@
 import parameters from "queryparams";
-import audiate from "audiate";
+import { block } from "audiate";
 
 import text from "./text";
 import rand from "./lib/rand";
@@ -65,5 +65,5 @@ const init = () => {
   step(message);
 };
 
-const play = audiate({ onEnable: init });
+const play = block({ onEnable: init });
 document.addEventListener("DOMContentLoaded", play);
