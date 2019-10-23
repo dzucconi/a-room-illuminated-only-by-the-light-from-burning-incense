@@ -19,7 +19,7 @@
     "parcel": "1.12.4"
   },
   "dependencies": {
-    "audiate": "1.1.1",
+    "audiate": "2.0.0",
     "howler": "2.1.2",
     "queryparams": "0.1.0"
   }
