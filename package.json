@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "audiate": "2.0.0",
-    "howler": "2.2.2",
+    "howler": "2.2.3",
     "queryparams": "0.1.0"
   }
 }
