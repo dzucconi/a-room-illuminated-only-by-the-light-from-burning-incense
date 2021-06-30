@@ -21,6 +21,6 @@
   "dependencies": {
     "audiate": "2.0.0",
     "howler": "2.2.3",
-    "queryparams": "0.1.0"
+    "queryparams": "1.2.2"
   }
 }
